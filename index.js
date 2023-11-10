@@ -14,10 +14,3 @@ import { returnData } from './promise.js'; //! DO NOT REMOVE THIS LINE
         - await
             - calls a process to "wait" for a result
 */
-
-async function extraData() {
-    let info = await returnData();
-    return(`${info} in the cloud...`)
-}
-
-extraData().then(d => console.log(d));
