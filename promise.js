@@ -7,7 +7,7 @@ export function returnData() {
             } else {
                 reject('Rejected!!!')
             }
-        })
+        }, 3000)
     })
 
 }
